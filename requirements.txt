@@ -1,5 +1,5 @@
 streamlit==1.24.0
 langchain
 langchain_google_genai
-"pymongo[srv]"==3.6
+pymongo[srv]==3.6
 pyTelegramBotAPI
