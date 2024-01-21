@@ -30,6 +30,7 @@ memory_key = "chat_history"
 # memory = ConversationBufferMemory(memory_key=memory_key)
 # Initialize Telegram bot
 bot = telebot.TeleBot(BOT_TOKEN)
+bot.delete_webhook()
 
 def load_or_create_memory(user_id, collection):
   """Loads the memory for a user if the user ID exists in the database.
