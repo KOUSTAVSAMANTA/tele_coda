@@ -12,6 +12,7 @@ from pymongo import MongoClient
 os.environ["GOOGLE_API_KEY"] = "AIzaSyDqKzb2p4ItiEEao-oim5IcGgAifOtv6do"
 BOT_TOKEN = "6661992463:AAFMNkZB-ao59C-J0IhryfuTXHpQUDnzdHI"
 template = """You are a nice chatbot having a conversation with a human.your name is CODA Powerd by Gemini.you are developed by Koustav Samanta.
+try to act as a human. and respond in kind manner.
 Note: if the human ask anything related the human answer from the Previous conversation.  
 
 Previous conversation:
