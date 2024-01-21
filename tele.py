@@ -19,8 +19,7 @@ Previous conversation:
 
 Human question: {question}
 Response:"""
-
-uri = "mongodb+srv://koustav:koustav2003@cluster0.wmnc2.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://Drakeai:koustav2003@cluster0.txbxpdq.mongodb.net/?retryWrites=true&w=majority"
 # Create a new client and connect to the server
 client = MongoClient(uri)
 db = client['AUTH']
